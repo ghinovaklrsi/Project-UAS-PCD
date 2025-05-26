@@ -329,7 +329,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Users/Ghinova Klarisa/Downloads/H (1).png</pixmap>
+     <pixmap resource="../resource_path.qrc">:/gambar/assets/H (1).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -348,7 +348,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/12.png</pixmap>
+     <pixmap>../assets/12.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -386,7 +386,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/11.png</pixmap>
+     <pixmap>../assets/11.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -405,7 +405,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/10.png</pixmap>
+     <pixmap>../assets/10.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -424,7 +424,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/8.png</pixmap>
+     <pixmap>../assets/8.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -443,7 +443,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/15.png</pixmap>
+     <pixmap>../assets/15.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -452,8 +452,8 @@ border-radius: 8px</string>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>120</y>
+      <x>660</x>
+      <y>100</y>
       <width>391</width>
       <height>421</height>
      </rect>
@@ -462,7 +462,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/13.png</pixmap>
+     <pixmap>../assets/13.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -481,7 +481,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/13.png</pixmap>
+     <pixmap>../assets/13.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -500,7 +500,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/13.png</pixmap>
+     <pixmap>../assets/13.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -519,7 +519,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/14.png</pixmap>
+     <pixmap>../assets/14.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -538,7 +538,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/16.png</pixmap>
+     <pixmap>../assets/16.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -547,8 +547,8 @@ border-radius: 8px</string>
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>320</y>
+      <x>190</x>
+      <y>300</y>
       <width>91</width>
       <height>91</height>
      </rect>
@@ -557,7 +557,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>assets/17.png</pixmap>
+     <pixmap>../assets/17.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -633,7 +633,7 @@ border-radius: 8px</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Users/Ghinova Klarisa/Downloads/H.png</pixmap>
+     <pixmap>../assets/H.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -682,6 +682,8 @@ border-radius: 8px</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resource_path.qrc"/>
+ </resources>
  <connections/>
 </ui>
